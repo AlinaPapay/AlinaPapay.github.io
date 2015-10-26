@@ -9,14 +9,19 @@ h1{
     text-align: center;
     padding-top: 45px;
 }
+.photo {
+    width: 200px;
+    height: 200px;
+}
 .img1{
     text-align: center;
 }
 .A4{
     width: 550px;
-    height: 850px;
     background-color: white;
     margin: auto;
+    padding-bottom: 50px;
+    box-shadow: 0 0 10px 2px grey;
 }
 p{
     font-size: 18px;
