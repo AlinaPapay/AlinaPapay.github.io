@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.li1 {
+    display: inline-block;
+    background-color: dimgrey;
+    color: white;
+    padding-right: 74px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 45px;
+    margin-top: 40px;
+    font-family: sans-serif;
+
+}
+.four{
+    width: 400px;
+}
+h1{
+    margin-left: 35px;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.button:hover {
+    background: black;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-right: 72px;
+}
+.button1:hover {
+    background: gainsboro;
+    text-align: center;
+}
+.button2{
+text-decoration: underline;
+}
+.middle{
+    list-style-type: none;
+    background: white;
+    border: 1px solid gainsboro;
+    padding: 10px 20px 10px 50px;
+    margin-right: 20px;
+    margin-top: 0;
+    width: 150px;
+    font-family: sans-serif;
+}
+.ul1{
+    margin-left: 30px;
+}
+.ul2{
+    margin-left: 30px;
+}
+.left{
+float: left;
+    margin-left: 30px;
+}
+img{
+    border: 1px solid gainsboro;
+}
+p{
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 600px;
+    font-family: sans-serif;
+}
+.li2 {
+    display: inline-block;
+    background-color: gainsboro;
+    color: black;
+    padding-right: 94px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.A4 {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 50px;
+    box-shadow: 0 0 10px 2px grey;
+}
