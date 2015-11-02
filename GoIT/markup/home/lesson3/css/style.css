@@ -36,7 +36,7 @@
     color: black;
     padding-right: 74px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     padding-top: 10px;
     margin-bottom: 10px;
     font-family: sans-serif;
@@ -91,7 +91,12 @@ text-decoration: underline;
     color: black;
     padding-right: 50px;
     padding-left: 20px;
+<<<<<<< HEAD
     padding-bottom: 10px;
+=======
+    padding-bottom: 7px;
+    padding-top: 10px;
+>>>>>>> 0702465250979511270eb4d4a7a49bc08c0fb5dc
     margin-top: 10px;
     font-family: sans-serif;
     font-size: 15px;
