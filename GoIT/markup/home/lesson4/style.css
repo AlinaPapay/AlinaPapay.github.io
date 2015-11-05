@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/background.png);
+}
+.A4{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1000px;
+    background-color: white;
+    padding-bottom: 2px;
+    box-shadow: 0 0 10px 2px darkgrey;
+    border: 1px solid dimgrey;
+}
+.img1{
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.img1 p{
+    float: left;
+    position: absolute;
+    left: 74px;
+    top: 95px;
+    color: dodgerblue;
+    font-size: 13px;
+}
+.right{
+    float: right;
+}
+.contacts{
+    float: right;
+    color: dodgerblue;
+    margin-top: 6px;
+    margin-right: 27px;
+    line-height: 20px;
+    font-size: 13px;
+}
+.countries{
+    margin-top: 96px;
+    margin-right: 13px;
+    font-size: 13px;
+}
+.country{
+    float: right;
+    margin-right: -8px;
+}
+.country img{
+    display: block;
+    margin-right: 19px;
+}
+.country a{
+    display: block;
+    margin: 3px 6px 0 -10px;
+    text-align: center;
+    color: dodgerblue;
+}
+.img2{
+    text-align: center;
+    margin-top: -5px;
+}
+.menu{
+    margin-top: -5px;
+    position: relative;
+    z-index: 10;
+    font-size: 0;
+    background: dimgrey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid black;
+}
+.menu li:first-child{
+    padding-left: 62px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu a{
+    display: block;
+    color: white;
+    padding: 0 33px;
+    line-height: 25px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.list{
+    display: none;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 29px;
+    background: dimgrey;
+    color: white;
+}
+.list li{
+    float: none;
+    background: none;
+    border-bottom: 1px solid #CCC;
+}
+.list a{
+    padding-left: 8px;
+    line-height: 22px;
+    color: #d5d5d5;
+}
+.list-active,
+.menu li:hover .list1,
+.menu li:hover .list2,
+.menu li:hover .list3{
+    display: block;
+}
+.list1{
+    margin-top: -3px;
+    left: 197px;
+    width: 139px;
+}
+.list2{
+     margin-top: -3px;
+     left: 353px;
+ }
+.list3{
+    margin-top: -3px;
+    left: 470px;
+}
+.arrow > a:after{
+    position: relative;
+    top: 0px;
+    left: 4px;
+    content: url('img/arrow.png');
+}
+.all{
+    width: 1000px;
+    overflow: hidden;
+}
+.infa{
+    float: left;
+    width: 225px;
+    background-color: gainsboro;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.content{
+    float: left;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.news{
+    float: right;
+    width: 250px;
+    background-color: gainsboro;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.text{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: dimgrey;
+}
+.text1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: darkslategray;
+}
+.holidays{
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+}
