@@ -127,7 +127,7 @@ body{
     position: relative;
     top: 0px;
     left: 4px;
-    content: url('img/arrow.png');
+    content: url('../img/arrow.png');
 }
 .all{
     width: 1000px;
