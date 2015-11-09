@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: lightgrey;
+}
 .menu{
     margin-top: 27px;
 }
@@ -14,6 +17,7 @@
     overflow: hidden;
     font-size: 0;
     background: dimgrey;
+    background: linear-gradient(to top, dimgrey, gray);
 }
 .ul1 li{
     list-style: none;
@@ -21,6 +25,7 @@
     border-left:  1px solid transparent;
     border-right:  1px solid transparent;
     background-color: dimgrey;
+    background: linear-gradient(to top, dimgrey, gray);
 }
 .ul1 a{
     margin: 0 40px;
@@ -30,19 +35,6 @@
     text-shadow: 1px 1px 2px #393801;
     color: white;
 }
-.li2 {
-    list-style: none;
-    display: inline-block;
-    background-color: gainsboro;
-    color: black;
-    padding-right: 74px;
-    padding-left: 20px;
-    padding-bottom: 7px;
-    padding-top: 10px;
-    margin-bottom: 10px;
-    font-family: sans-serif;
-    font-size: 15px;
-}
 h1{
     margin-left: 50px;
     margin-top: 40px;
@@ -50,9 +42,10 @@ h1{
     font-family: sans-serif;
 }
 .button:hover {
-    background: #444343;
+    background: #2c2c2c;
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
+    background: linear-gradient(to top, #2c2c2c, gray);
 }
 .button1:hover {
     background: whitesmoke;
@@ -61,12 +54,6 @@ h1{
 .left-active {
     background: whitesmoke;
     padding-left: 15px;
-}
-.button2{
-text-decoration: underline;
-}
-.button3:hover{
-    text-decoration: underline;
 }
 .left{
     float: left;
@@ -90,29 +77,53 @@ text-decoration: underline;
     text-decoration: none;
     display: block;
 }
+.left-active a{
+    color: black;
+}
 .ul2{
     float: left;
+}
+.ul2 li{
+    float: left;
+    list-style: none;
+    display: inline-block;
+    background-color: gainsboro;
+    color: black;
+    padding-right: 29px;
+    padding-left: 45px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.ul2 a{
+    color: black;
+    font-size: 14px;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    margin: -10px -3px;
+    margin-right: 10px;
 }
 .footer {
     position: relative;
     overflow: hidden;
     background-color: gainsboro;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 45px;
-    margin-top: 50px;
+    margin: 60px 49px;
 }
 .footer1{
     float: right;
     color: black;
-    padding-right: 50px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-bottom: 7px;
-    padding-top: 10px;
-    margin-top: 10px;
+    padding-right: 30px;
+    padding-top: 12px;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+}
+.button2{
+    text-decoration: underline;
+}
+.button3:hover{
+    text-decoration: underline;
 }
 img{
     border: 1px solid gainsboro;
@@ -139,7 +150,10 @@ p{
     overflow: hidden;
 }
 .ul1 .ul1-active{
-    background: #444343;
-    border-left:  0px solid #838383;
-    border-right:  0px solid #838383;
+    background: #2c2c2c;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    background: linear-gradient(to top, #2c2c2c, gray);
+
+
 }
