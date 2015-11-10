@@ -9,7 +9,7 @@ body {
 body, html {
     height: 100%;
 }
-.A4{
+.container{
     background-color: white;
     box-shadow: 0 0 10px 2px grey;
     margin: 0 auto;
