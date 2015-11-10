@@ -14,7 +14,7 @@ body, html {
     box-shadow: 0 0 10px 2px grey;
     margin: 0 auto;
     min-height: 100%;
-    padding: 1px 50px 0;
+    padding: 1px 50px 60px;
     width: 1050px;
 }
 .menu{
@@ -100,7 +100,7 @@ h1{
     position: relative;
     overflow: hidden;
     background-color: gainsboro;
-    margin: 60px 0;
+    margin: 60px 0 0;
 }
 .ul2{
     float: left;
