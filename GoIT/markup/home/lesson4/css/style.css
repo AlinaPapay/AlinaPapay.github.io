@@ -5,7 +5,7 @@
 body{
     background: url('../img/background.png');
 }
-.A4{
+.container{
     overflow: hidden;
     margin: 0 auto;
     width: 1000px;
