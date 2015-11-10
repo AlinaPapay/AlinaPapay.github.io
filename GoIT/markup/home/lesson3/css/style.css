@@ -50,7 +50,7 @@ h1{
     padding-top: 20px;
     font-family: sans-serif;
 }
-..ul1 .ul1-active, .ul1 .ul1-active, .ul1 li:hover{
+.ul1 .ul1-active, .ul1 li:hover{
     background: #2c2c2c;
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
