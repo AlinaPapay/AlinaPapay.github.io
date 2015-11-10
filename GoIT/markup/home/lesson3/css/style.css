@@ -52,8 +52,8 @@ h1{
 }
 .ul1 .ul1-active, .ul1 li:hover{
     background: #2c2c2c;
-    border-left: 1px solid #838383;
-    border-right: 1px solid #838383;
+    border-left: 1px solid #с8с8с8;
+    border-right: 1px solid #с8с8с8;
     background: linear-gradient(to top, #2c2c2c, gray);
 }
 .center{
