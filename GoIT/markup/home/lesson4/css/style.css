@@ -11,7 +11,7 @@ body{
     width: 1000px;
     background-color: white;
     padding-bottom: 2px;
-    box-shadow: 0 0 10px 2px darkgrey;
+    box-shadow: 0 0 10px 2px #343434;
     border: 1px solid dimgrey;
 }
 .img1{
@@ -25,7 +25,7 @@ body{
     position: absolute;
     left: 74px;
     top: 95px;
-    color: dodgerblue;
+    color: #2292ad;
     font-size: 13px;
 }
 .right{
@@ -33,20 +33,24 @@ body{
 }
 .contacts{
     float: right;
-    color: dodgerblue;
+    color: #2292ad;
     margin-top: 6px;
     margin-right: 27px;
-    line-height: 20px;
-    font-size: 13px;
+    line-height: 16px;
+    font-size: 12px;
+}
+.contacts-header{
+    font-weight: bold;
+    line-height: 22px
 }
 .countries{
     margin-top: 96px;
     margin-right: 13px;
-    font-size: 13px;
+    font-size: 10px;
 }
 .country{
     float: right;
-    margin-right: -8px;
+    margin-right: -5px;
 }
 .country img{
     display: block;
@@ -56,7 +60,7 @@ body{
     display: block;
     margin: 3px 6px 0 -10px;
     text-align: center;
-    color: dodgerblue;
+    color: #2292ad;
 }
 .img2{
     text-align: center;
@@ -67,7 +71,7 @@ body{
     position: relative;
     z-index: 10;
     font-size: 0;
-    background: dimgrey;
+    background: #343434;
     border-top: 1px solid grey;
     border-bottom: 1px solid black;
 }
@@ -91,7 +95,7 @@ body{
     padding-bottom: 5px;
     position: absolute;
     top: 29px;
-    background: dimgrey;
+    background: #343434;
     color: white;
 }
 .list li{
@@ -102,7 +106,7 @@ body{
 .list a{
     padding-left: 8px;
     line-height: 22px;
-    color: #d5d5d5;
+    color: white;
 }
 .list-active,
 .menu li:hover .list1,
@@ -136,9 +140,9 @@ body{
 .infa{
     float: left;
     width: 225px;
-    background-color: gainsboro;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    background-color: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
@@ -153,9 +157,9 @@ body{
 .news{
     float: right;
     width: 250px;
-    background-color: gainsboro;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    background-color: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
@@ -163,13 +167,13 @@ body{
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: dimgrey;
+    color: #535b54;
 }
 .text1{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: darkslategray;
+    color: #424c43;
 }
 .holidays{
     margin: 10px auto;
