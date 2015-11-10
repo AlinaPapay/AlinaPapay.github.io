@@ -155,11 +155,3 @@ p{
     line-height: 20px;
     font-size: 14px;
 }
-.ul1 .ul1-active{
-    background: #2c2c2c;
-    border-left: 1px solid #c8c8c8;
-    border-right: 1px solid #c8c8c8;
-    background: linear-gradient(to top, #2c2c2c, gray);
-
-
-}
