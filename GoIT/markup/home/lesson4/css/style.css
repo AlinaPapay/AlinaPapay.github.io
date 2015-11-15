@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background: url('../img/background.png');
+    background: url('../img/background.png') repeat-x 0 0 #2292ad;
+    font-family: "Tahoma", sans-serif;
 }
 .container{
     overflow: hidden;
@@ -23,7 +24,7 @@ body{
 .img1 p{
     float: left;
     position: absolute;
-    left: 74px;
+    left: 62px;
     top: 95px;
     color: #2292ad;
     font-size: 13px;
@@ -47,20 +48,25 @@ body{
     margin-top: 96px;
     margin-right: 13px;
     font-size: 10px;
+    list-style-type: none;
 }
-.country{
+.countries li{
     float: right;
-    margin-right: -5px;
 }
-.country img{
+.countries img {
     display: block;
-    margin-right: 16px;
+    margin: auto 6px;
 }
-.country a{
+.countries a{
     display: block;
     margin: 3px 6px 0 -10px;
+    padding-right: 10px;
     text-align: center;
     color: #2292ad;
+}
+.countries img .countries a{
+    text-align: center;
+    display: block;
 }
 .img2{
     text-align: center;
@@ -85,7 +91,7 @@ body{
 .menu a{
     display: block;
     color: white;
-    padding: 0 33px;
+    padding: 0 29px;
     line-height: 25px;
     font-size: 14px;
     text-decoration: none;
