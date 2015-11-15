@@ -55,7 +55,7 @@ body{
 }
 .countries img {
     display: block;
-    margin: auto 6px;
+    margin: auto 3px;
 }
 .countries a{
     display: block;
@@ -121,9 +121,8 @@ body{
     display: block;
 }
 .list1{
-    margin-top: -4px;
+    margin-top: -3px;
     left: 197px;
-    width: 139px;
 }
 .list2{
      margin-top: -3px;
