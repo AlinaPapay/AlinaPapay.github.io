@@ -69,6 +69,7 @@ body{
 }
 .menu{
     margin-top: -5px;
+    padding-left: 54px;
     position: relative;
     z-index: 10;
     font-size: 0;
@@ -76,12 +77,10 @@ body{
     border-top: 1px solid grey;
     border-bottom: 1px solid black;
 }
-.menu li:first-child{
-    padding-left: 62px;
-}
 .menu li{
     list-style: none;
     display: inline-block;
+    position: relative;
 }
 .menu a{
     display: block;
@@ -93,16 +92,16 @@ body{
 }
 .list{
     display: none;
+    left: 0;
     padding-bottom: 5px;
     position: absolute;
-    top: 29px;
+    top: 26px;
     background: #343434;
     color: white;
 }
 .list li{
     float: none;
     background: none;
-    border-bottom: 1px solid #CCC;
 }
 .list a{
     padding-left: 8px;
@@ -110,22 +109,8 @@ body{
     color: white;
 }
 .list-active,
-.menu li:hover .list1,
-.menu li:hover .list2,
-.menu li:hover .list3{
+.menu li:hover .list {
     display: block;
-}
-.list1{
-    margin-top: -3px;
-    left: 197px;
-}
-.list2{
-     margin-top: -3px;
-     left: 353px;
- }
-.list3{
-    margin-top: -3px;
-    left: 470px;
 }
 .arrow > a:after{
     position: relative;
