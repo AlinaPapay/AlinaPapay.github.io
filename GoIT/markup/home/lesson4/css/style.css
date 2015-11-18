@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url('../img/background.png') repeat-x 0 0 #2292ad;
+    background: url('../img/background.png') repeat-x 0 0 #0c739f;
     font-family: "Tahoma", sans-serif;
 }
 .container{
@@ -29,9 +29,6 @@ body{
     color: #2292ad;
     font-size: 13px;
 }
-.right{
-    float: right;
-}
 .contacts{
     float: right;
     color: #2292ad;
@@ -45,22 +42,20 @@ body{
     line-height: 22px
 }
 .countries{
-    margin-top: 103px;
-    margin-right: 13px;
+    clear: right;
+    float: right;
     font-size: 10px;
     list-style-type: none;
+    margin: 20px 17px 0 0;
 }
 .countries li{
     float: right;
 }
 .countries img {
-    display: block;
-    margin: auto 3px;
 }
 .countries a{
     display: block;
-    margin: 3px 6px 0 -10px;
-    padding-right: 10px;
+    margin: 7px;
     text-align: center;
     color: #2292ad;
 }
