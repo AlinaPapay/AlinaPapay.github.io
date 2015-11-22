@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+td{
+    border: 5px solid black;
+    border-color: black;
+}
+table{
+    margin: 100px auto;
+    width: 500px;
+
+    border-spacing: 0;
+}
+.NoTopBorder{
+    border-top: none;
+}
+.NoLeftBorder{
+    border-left: none;
+}
+.NoRightBorder{
+    border-right: none;
+}
+.NoBorderBottom{
+    border-bottom: none;
+}
+
+.colorred{
+   background-color: red;
+}
+.coloryellow{
+    background-color: yellow;
+}
+.colorblue{
+    background-color: blue;
+}
+.colorblack{
+    background-color: #3A3434;
+}
+
+
+.line1_cell{
+    height: 45px;
+}
+.line2_cell1{
+    height: 146px;
+}
+.line3_cell1{
+    width: 60px;
+}
+.line3_cell3{
+    height: 140px;
+}
+.square{
+    width: 65px;
+    height: 65px;
+}
+.line6{
+    height: 35px;
+}
+.line7{
+    height: 35px;
+}

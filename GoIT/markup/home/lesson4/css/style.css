@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background: url('../img/background.png');
+    background: url('../img/background.png') repeat-x 0 0 #0c739f;
+    font-family: "Tahoma", sans-serif;
 }
 .container{
     overflow: hidden;
@@ -23,13 +24,10 @@ body{
 .img1 p{
     float: left;
     position: absolute;
-    left: 74px;
+    left: 62px;
     top: 95px;
     color: #2292ad;
     font-size: 13px;
-}
-.right{
-    float: right;
 }
 .contacts{
     float: right;
@@ -44,23 +42,26 @@ body{
     line-height: 22px
 }
 .countries{
-    margin-top: 96px;
-    margin-right: 13px;
-    font-size: 10px;
-}
-.country{
+    clear: right;
     float: right;
-    margin-right: -5px;
+    font-size: 10px;
+    list-style-type: none;
+    margin: 20px 17px 0 0;
 }
-.country img{
-    display: block;
-    margin-right: 16px;
+.countries li{
+    float: right;
 }
-.country a{
+.countries img {
+}
+.countries a{
     display: block;
-    margin: 3px 6px 0 -10px;
+    margin: 7px;
     text-align: center;
     color: #2292ad;
+}
+.countries img .countries a{
+    text-align: center;
+    display: block;
 }
 .img2{
     text-align: center;
@@ -68,6 +69,7 @@ body{
 }
 .menu{
     margin-top: -5px;
+    padding-left: 54px;
     position: relative;
     z-index: 10;
     font-size: 0;
@@ -75,33 +77,34 @@ body{
     border-top: 1px solid grey;
     border-bottom: 1px solid black;
 }
-.menu li:first-child{
-    padding-left: 62px;
-}
 .menu li{
     list-style: none;
     display: inline-block;
+    position: relative;
 }
 .menu a{
     display: block;
     color: white;
-    padding: 0 33px;
+    padding: 0 29px;
     line-height: 25px;
     font-size: 14px;
     text-decoration: none;
 }
 .list{
-    display: none;
-    padding-bottom: 5px;
-    position: absolute;
-    top: 29px;
-    background: #343434;
+    background: #343434 none repeat scroll 0 0;
+    box-sizing: border-box;
     color: white;
+    display: none;
+    left: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    position: absolute;
+    top: 26px;
+    width: 100%;
 }
 .list li{
     float: none;
     background: none;
-    border-bottom: 1px solid #CCC;
 }
 .list a{
     padding-left: 8px;
@@ -109,23 +112,8 @@ body{
     color: white;
 }
 .list-active,
-.menu li:hover .list1,
-.menu li:hover .list2,
-.menu li:hover .list3{
+.menu li:hover .list {
     display: block;
-}
-.list1{
-    margin-top: -4px;
-    left: 197px;
-    width: 139px;
-}
-.list2{
-     margin-top: -3px;
-     left: 353px;
- }
-.list3{
-    margin-top: -3px;
-    left: 470px;
 }
 .arrow > a:after{
     position: relative;
