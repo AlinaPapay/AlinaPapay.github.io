@@ -18,13 +18,11 @@ html, body{
 body{
     font-family: "Helvetica Neue Regular", Tahoma, sans-serif;
     min-height: 100%;
+    background: url(img/background.jpg) no-repeat center center / cover;
 }
 .container{
     overflow: hidden;
     height: 100%;
-    background-image: url(img/background.jpg);
-    background-position: center;
-    background-size: cover;
 }
 .menu{
     height: 35px;
@@ -68,14 +66,14 @@ body{
     color: #60b5ed;
     list-style-type: none;
 }
+.main_menu_left a {
+    text-decoration: none;
+    color: #60b5ed;
+}
 .main_menu_left li:hover {
     background-color: #49a4d7;
     color: white;
     padding: 9px 13px 7px 13px;
-}
-.wrapper{
-    height: 1025px;
-    width: 100%;
 }
 .form{
     position: absolute;
@@ -117,8 +115,30 @@ body{
     border: none;
 }
 .ou{
-    background: url(img/line.png) 130px 32px no-repeat;
-    height: 65px;
+    position: relative;
+    margin: 22px auto 16px;
+    font-size: 12px;
+    color: #828482;
+    text-align: center;
+    width: 275px;
+}
+.ou:before{
+    position: absolute;
+    content: "";
+    width: 118px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #666666 ;
+    top: 5px;
+    left: 0;
+}
+.ou:after{
+    position: absolute;
+    content: "";
+    width: 118px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #666666 ;
+    top: 5px;
+    right: 0;
 }
 .form_body{
     position: relative;
@@ -156,6 +176,8 @@ body{
     font-size: 14px;
     border-color: #5ea5e0;
     background: linear-gradient(to bottom, #4eabda 0%,#2e7ac4 100%);
+    border: none;
+    cursor: pointer;
 }
 .bottom_text{
     margin: 12px auto;
